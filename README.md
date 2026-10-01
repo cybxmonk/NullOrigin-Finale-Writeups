@@ -1,16 +1,11 @@
-# NullOrigin Finale Writeups
+# Null Origin Finale — Web Challenge Writeups
 
-## Challenge: Event Horizon (Not an easy horizon)
+Official solution writeups for the Web challenges in the Null Origin Finale CTF.
 
-**Flag:** `Null0rigin{event_horizon_uncomputable_2fa8}`
+## Index of Writeups
 
-### Introduction
-Event Horizon is an expert-level blackbox cryptography challenge simulating quantum observations around a hidden singularity state.
-The application exposes a noisy binary parity oracle over $\mathbb{F}_2^{256}$ with thermal entropy fluctuations instead of true random noise.
-By querying 256 quantum basis vectors and performing statistical majority voting, participants can reconstruct the full 256-bit target preimage and collapse the singularity.
+* **[Not an easy horizon](Not%20an%20easy%20horizon)** (or [writeup.md](Not%20an%20easy%20horizon/Writeup.md)) — *Hard / Insane*
 
----
-
-### Contents
-- [`Not an easy horizon/Writeup.md`](./Not%20an%20easy%20horizon/Writeup.md) — Complete technical writeup and mathematical breakdown.
-- [`Not an easy horizon/solve.py`](./Not%20an%20easy%20horizon/solve.py) — Automated blackbox parallel solver script.
+  * **Theme**: Quantum Singularity & Hidden Preimage Recovery
+  * **Intro**: Event Horizon simulates quantum measurements around an isolated singularity state. The system exposes a noisy binary parity oracle over GF(2) with thermal fluctuations, allowing full state reconstruction via basis projection.
+  * **Flag**: `Null0rigin{event_horizon_uncomputable_2fa8}`
