@@ -1,6 +1,6 @@
-# Null Origin Finale — Web Challenge Writeups
+# Null Origin Finale — Challenge Writeups
 
-Official solution writeups for the Web challenges in the Null Origin Finale CTF.
+Official solution writeups for the challenges in the Null Origin Finale CTF.
 
 ## Index of Writeups
 
@@ -27,3 +27,9 @@ Official solution writeups for the Web challenges in the Null Origin Finale CTF.
   * **Theme**: Spectral Harmonic State Reconstruction & Finite Field Polynomial Inversion
   * **Intro**: A quantum spectral monitoring console operating over an indeterminate 16-dimensional ground state vector in GF(p). By inverting a non-linear cubic permutation and solving the Vandermonde spectral coupling matrix, the hidden state vector is reconstructed to collapse the wavefunction.
   * **Flag**: `NullOrigin{f4nt4sm4_3l_punt0_f1n4l_1nv1s1bl3_qu4ntum_st4t3_r3c0v3r3d}`
+
+* **[Señal en capas](Se%C3%B1al%20en%20capas)** (or [writeup.md](Se%C3%B1al%20en%20capas/writeup.md)) — *Easy*
+
+  * **Theme**: Multi-Layered Encoding (Base58 → Base32 → Base45 → ROT13)
+  * **Intro**: A multi-layered signal encoding challenge where a concealed message has been consecutively transformed through Base58, Base32, Base45, and ROT13 substitution.
+  * **Flag**: `NullOrigin{5y57em_m34ns_3Lv1sh}`
