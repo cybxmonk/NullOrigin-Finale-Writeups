@@ -21,3 +21,9 @@ Official solution writeups for the Web challenges in the Null Origin Finale CTF.
   * **Theme**: Client-Side Prototype Pollution, DOM XSS & HSM Enclave Bypass
   * **Intro**: A financial vault portal where unvalidated transaction memo parsing leads to client-side prototype pollution, bypassing the HTML sanitizer to achieve DOM XSS, manipulate the same-origin HSM iframe, and decrypt the encrypted vault.
   * **Flag**: `NullOrigin{kUb3rr_15_r1cH_th0ugh}`
+
+* **[Fantasma](Fantasma)** (or [writeup.md](Fantasma/Writeup.md)) — *Hard / Insane*
+
+  * **Theme**: Spectral Harmonic State Reconstruction & Finite Field Polynomial Inversion
+  * **Intro**: A quantum spectral monitoring console operating over an indeterminate 16-dimensional ground state vector in GF(p). By inverting a non-linear cubic permutation and solving the Vandermonde spectral coupling matrix, the hidden state vector is reconstructed to collapse the wavefunction.
+  * **Flag**: `NullOrigin{f4nt4sm4_3l_punt0_f1n4l_1nv1s1bl3_qu4ntum_st4t3_r3c0v3r3d}`
