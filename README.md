@@ -33,3 +33,9 @@ Official solution writeups for the challenges in the Null Origin Finale CTF.
   * **Theme**: Multi-Layered Encoding (Base58 → Base32 → Base45 → ROT13)
   * **Intro**: A multi-layered signal encoding challenge where a concealed message has been consecutively transformed through Base58, Base32, Base45, and ROT13 substitution.
   * **Flag**: `NullOrigin{5y57em_m34ns_3Lv1sh}`
+
+* **[The Oracle](The%20Oracle)** (or [writeup.md](The%20Oracle/writeup.md)) — *Medium*
+
+  * **Theme**: Secret-Prefix SHA-512 Hash Length Extension Attack
+  * **Intro**: A cryptographic divination oracle protecting messages via a naive secret-prefix MAC construction. By analyzing the Merkle-Damgard state and leveraging hash length extension, an unprivileged signature is forged to append master privileges.
+  * **Flag**: `Null0rigin{oracle_impossible_7e91}`
