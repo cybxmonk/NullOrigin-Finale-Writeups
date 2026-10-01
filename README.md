@@ -15,3 +15,9 @@ Official solution writeups for the Web challenges in the Null Origin Finale CTF.
   * **Theme**: Authentication-State Confusion & Jinja2 Template Injection (SSTI)
   * **Intro**: An enterprise document template management portal with authentication parameter precedence vulnerability enabling privilege escalation, followed by Jinja2 SSTI sandbox escape via MRO object traversal and filter evasion.
   * **Flag**: `NullOrigin{T3r4_Bh41_S33dh3_m4u7}`
+
+* **[Kuber](Kuber)** (or [writeup.md](Kuber/writeup.md)) — *Medium / Hard*
+
+  * **Theme**: Client-Side Prototype Pollution, DOM XSS & HSM Enclave Bypass
+  * **Intro**: A financial vault portal where unvalidated transaction memo parsing leads to client-side prototype pollution, bypassing the HTML sanitizer to achieve DOM XSS, manipulate the same-origin HSM iframe, and decrypt the encrypted vault.
+  * **Flag**: `NullOrigin{kUb3rr_15_r1cH_th0ugh}`
